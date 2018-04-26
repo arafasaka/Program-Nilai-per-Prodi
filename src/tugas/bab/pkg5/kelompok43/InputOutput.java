@@ -27,16 +27,16 @@ public class InputOutput {
                     System.out.print("Nilai Ujian Kalkulus       : ");
                     nilai1 = DataIn.nextInt();
              
-                    System.out.print("Nilai Ujian Fisika: ");
+                    System.out.print("Nilai Ujian Fisika         : ");
                     nilai2 = DataIn.nextInt();
              
-                    System.out.print("Nilai Ujian Elektronika: ");
+                    System.out.print("Nilai Ujian Elektronika    : ");
                     nilai3 = DataIn.nextInt();
               
-                    System.out.print("Nilai Ujian Sistem DIgital: ");
+                    System.out.print("Nilai Ujian Sistem DIgital : ");
                     nilai4 = DataIn.nextInt();
               
-                    System.out.print("Nilai Ujian Struktur Data: ");
+                    System.out.print("Nilai Ujian Struktur Data  : ");
                     nilai5 = DataIn.nextInt();
              
                     hasil = (nilai1+nilai2+nilai3+nilai4+nilai5)/5;
@@ -49,16 +49,16 @@ public class InputOutput {
                     System.out.print("Nilai Ujian Teori Bangunan Kapal  : ");
                     nilai1 = DataIn.nextInt();
              
-                    System.out.print("Nilai Ujian Termodinamika  : ");
+                    System.out.print("Nilai Ujian Termodinamika         : ");
                     nilai2 = DataIn.nextInt();
              
-                    System.out.print("Nilai Ujian Konstruksi Kapal: ");
+                    System.out.print("Nilai Ujian Konstruksi Kapal      : ");
                     nilai3 = DataIn.nextInt();
               
-                    System.out.print("Nilai Ujian Mekanika Teknik: ");
+                    System.out.print("Nilai Ujian Mekanika Teknik       : ");
                     nilai4 = DataIn.nextInt();
               
-                    System.out.print("Nilai Ujian Matematika Rekayasa: ");
+                    System.out.print("Nilai Ujian Matematika Rekayasa   : ");
                     nilai5 = DataIn.nextInt();
              
                     hasil = (nilai1+nilai2+nilai3+nilai4+nilai5)/5;
@@ -69,19 +69,19 @@ public class InputOutput {
                     System.out.println("Teknik Perkapalan");
                       
 
-                    System.out.print("Nilai Ujian Pumbking: ");
+                    System.out.print("Nilai Ujian Pumbking                       : ");
                     nilai1 = DataIn.nextInt();
              
-                    System.out.print("Nilai Ujian Manajemen Persampahan: ");
+                    System.out.print("Nilai Ujian Manajemen Persampahan          : ");
                     nilai2 = DataIn.nextInt();
              
-                    System.out.print("Nilai Ujian Pengolahan Pencemaran Udara   : ");
+                    System.out.print("Nilai Ujian Pengolahan Pencemaran Udara    : ");
                     nilai3 = DataIn.nextInt();
               
-                    System.out.print("Nilai Ujian Ekonomi Lingkungan  : ");
+                    System.out.print("Nilai Ujian Ekonomi Lingkungan             : ");
                     nilai4 = DataIn.nextInt();
               
-                    System.out.print("Nilai Ujian Spam: ");
+                    System.out.print("Nilai Ujian Spam                           : ");
                     nilai5 = DataIn.nextInt();
             
                     hasil = (nilai1+nilai2+nilai3+nilai4+nilai5)/5;
