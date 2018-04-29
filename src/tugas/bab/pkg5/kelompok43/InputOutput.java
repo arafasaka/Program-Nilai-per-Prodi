@@ -24,24 +24,24 @@ public class InputOutput {
                 switch(angka){
                     case(1):
                     System.out.println("Prodi Teknik Komputer");
-                    System.out.print("Nilai Ujian Kalkulus       : ");
+                    System.out.print("Nilai Ujian Kalkulus            : ");
                     nilai1 = DataIn.nextInt();
              
-                    System.out.print("Nilai Ujian Fisika         : ");
+                    System.out.print("Nilai Ujian Fisika              : ");
                     nilai2 = DataIn.nextInt();
              
-                    System.out.print("Nilai Ujian Elektronika    : ");
+                    System.out.print("Nilai Ujian Elektronika Dasar   : ");
                     nilai3 = DataIn.nextInt();
               
-                    System.out.print("Nilai Ujian Sistem DIgital : ");
+                    System.out.print("Nilai Ujian Sistem Digital      : ");
                     nilai4 = DataIn.nextInt();
               
-                    System.out.print("Nilai Ujian Struktur Data  : ");
+                    System.out.print("Nilai Ujian Struktur Data       : ");
                     nilai5 = DataIn.nextInt();
              
                     hasil = (nilai1+nilai2+nilai3+nilai4+nilai5)/5;
                     objek.pembatasa();
-                    System.out.println("Nilai Rata-Rata Ujian kaka "+mahasiswa+" " +hasil);break;
+                    System.out.println("Nilai Rata-Rata Ujian "+mahasiswa+" adalah " +hasil);break;
                     case(2):
                     System.out.println("Prodi Teknik Perkapalan");
                       
@@ -63,30 +63,30 @@ public class InputOutput {
              
                     hasil = (nilai1+nilai2+nilai3+nilai4+nilai5)/5;
                     objek.pembatasa();
-                    System.out.println("Nilai Rata-Rata Ujian kaka "+mahasiswa+" " +hasil);break;
+                    System.out.println("Nilai Rata-Rata Ujian "+mahasiswa+" adalah " +hasil);break;
                     
                     case(3):
                     System.out.println("Teknik Perkapalan");
                       
 
-                    System.out.print("Nilai Ujian Pumbking                       : ");
+                    System.out.print("Nilai Ujian Pumbking                    : ");
                     nilai1 = DataIn.nextInt();
              
-                    System.out.print("Nilai Ujian Manajemen Persampahan          : ");
+                    System.out.print("Nilai Ujian Manajemen Persampahan       : ");
                     nilai2 = DataIn.nextInt();
              
-                    System.out.print("Nilai Ujian Pengolahan Pencemaran Udara    : ");
+                    System.out.print("Nilai Ujian Pengolahan Pencemaran Udara : ");
                     nilai3 = DataIn.nextInt();
               
-                    System.out.print("Nilai Ujian Ekonomi Lingkungan             : ");
+                    System.out.print("Nilai Ujian Ekonomi Lingkungan          : ");
                     nilai4 = DataIn.nextInt();
               
-                    System.out.print("Nilai Ujian Spam                           : ");
+                    System.out.print("Nilai Ujian Spam                        : ");
                     nilai5 = DataIn.nextInt();
             
                     hasil = (nilai1+nilai2+nilai3+nilai4+nilai5)/5;
                     objek.pembatasa();
-                    System.out.println("Nilai Rata-Rata Ujian kaka "+mahasiswa+" " +hasil);break;
+                    System.out.println("Nilai Rata-Rata Ujian "+mahasiswa+" adalah " +hasil);break;
                     default:System.out.println("angka tak bernilai 1 - 3");break;
         }   
              
