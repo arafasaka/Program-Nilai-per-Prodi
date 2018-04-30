@@ -13,7 +13,7 @@ class TugasBab5Kelompok43 extends Prodi {
     }
     
     String getProdi (String k, String p, String l){
-        return super.getProdi() + Ün3. "+ prodi3;
+        return super.getProdi() + "\n3. "+ prodi3;
     }
 
     public static void main(String[] args) {
